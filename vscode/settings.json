@@ -1,0 +1,115 @@
+{
+    // Telemetry and AI features
+    "telemetry.telemetryLevel": "off",
+    "chat.disableAIFeatures": true,
+
+    // Zen mode
+    "zenMode.fullScreen": false,
+    "zenMode.centerLayout": false,
+
+    // Editor
+    // Font
+    "editor.fontSize": 12,
+    "editor.lineHeight": 2.5,
+    "editor.fontFamily": "Fira Code Retina",
+    "editor.fontLigatures": true,
+    // View
+    "editor.wordWrap": "off",
+    "editor.rulers": [80, 100, 120],
+    // Scrolling
+    "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.scrollbar.horizontalScrollbarSize": 0,
+    // Highlighting
+    "editor.renderLineHighlight": "gutter",
+    "editor.foldingHighlight": false,
+    "editor.occurrencesHighlight": "off",
+    // Cursor
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "on",
+    // Multiple references
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    // Suggestions
+    "editor.tabCompletion": "on",
+    "editor.snippetSuggestions": "bottom",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.suggestSelection": "first",
+    "editor.suggest.showWords": false,
+
+    // Workbench
+    // Theme
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#00000000",
+        "editor.lineHighlightBorder": "#ff6188b9",
+        "editorIndentGuide.background1": "#00000001",
+        "editorIndentGuide.activeBackground1": "#444444b9",
+        "editorRuler.foreground": "#444444b9"
+    },
+    // Scrolling
+    "workbench.list.smoothScrolling": true,
+    "workbench.tree.enableStickyScroll": true,
+    // Preview
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    // Layout
+    "workbench.sideBar.location": "right",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.activityBar.location": "top",
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.tabActionCloseVisibility": false,
+    "workbench.editor.titleScrollbarVisibility": "hidden",
+
+    // Explorer
+    "explorer.autoReveal": false,
+    "explorer.compactFolders": false,
+    // Outline
+    "outline.collapseItems": "alwaysCollapse",
+
+    // Source Control
+    "git.blame.editorDecoration.enabled": true,
+    "git.blame.editorDecoration.template": "${authorName}, ${authorDateAgo} • ${subject}",
+    "scm.defaultViewMode": "tree",
+
+    // diffEditor
+    "diffEditor.renderSideBySide": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+
+    // Debug
+    "debug.showVariableTypes": true,
+
+    // Files
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+
+    // Terminal
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.lineHeight": 1.5,
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorStyleInactive": "none",
+
+    // Window
+    "window.title": "${activeRepositoryName}${separator}${activeRepositoryBranchName}",
+    "window.restoreWindows": "none",
+    "window.menuBarVisibility": "toggle",
+    "window.commandCenter": false,
+
+    // Breadcrumbs
+    "breadcrumbs.enabled": true,
+
+    // Extensions
+    "extensions.ignoreRecommendations": true
+}

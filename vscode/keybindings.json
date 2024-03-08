@@ -1,0 +1,154 @@
+// Place your key bindings in this file to override the defaults
+[
+    // ------------
+    // Travel
+    // ------------
+    // Block travel
+    {
+        "key": "ctrl+up",
+        "command": "cursorMove",
+        "when": "editorTextFocus",
+        "args": {
+            "to": "prevBlankLine",
+            "by": "wrappedLine"
+        }
+    },
+    {
+        "key": "ctrl+down",
+        "command": "cursorMove",
+        "when": "editorTextFocus",
+        "args": {
+            "to": "nextBlankLine",
+            "by": "wrappedLine"
+        }
+    },
+    // Block select
+    {
+        "key": "ctrl+shift+up",
+        "command": "cursorMove",
+        "when": "editorTextFocus",
+        "args": {
+            "to": "prevBlankLine",
+            "by": "wrappedLine",
+            "select": true
+        }
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "cursorMove",
+        "when": "editorTextFocus",
+        "args": {
+            "to": "nextBlankLine",
+            "by": "wrappedLine",
+            "select": true
+        }
+    },
+    // Part word travel
+    {
+        "key": "alt+left",
+        "command": "cursorWordPartLeft",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "alt+right",
+        "command": "cursorWordPartRight",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    // Part word select
+    {
+        "key": "shift+alt+left",
+        "command": "cursorWordPartLeftSelect",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "cursorWordPartRightSelect",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    // Part word delete
+    {
+        "key": "alt+delete",
+        "command": "deleteWordPartRight",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "deleteWordPartLeft",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    // Editor diff travel
+    {
+        "key": "alt+pageup",
+        "command": "workbench.action.editor.previousChange",
+        "when": "editorTextFocus && !textCompareEditorActive"
+    },
+    {
+        "key": "alt+pagedown",
+        "command": "workbench.action.editor.nextChange",
+        "when": "editorTextFocus && !textCompareEditorActive"
+    },
+    // Compare editor diff travel
+    {
+        "key": "alt+pageup",
+        "command": "workbench.action.compareEditor.previousChange",
+        "when": "textCompareEditorVisible"
+    },
+    {
+        "key": "alt+pagedown",
+        "command": "workbench.action.compareEditor.nextChange",
+        "when": "textCompareEditorVisible"
+    },
+    // Merge editor travel
+    {
+        "key": "alt+e alt+pagedown",
+        "command": "merge-conflict.next",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+e alt+pageup",
+        "command": "merge-conflict.previous",
+        "when": "editorTextFocus"
+    },
+    // Merge editor actions
+    {
+        "key": "alt+e 1",
+        "command": "merge-conflict.accept.current",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+e 2",
+        "command": "merge-conflict.accept.incoming",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+e 3",
+        "command": "merge-conflict.accept.both",
+        "when": "editorTextFocus"
+    },
+    // Multi diff editor travel
+    {
+        "key": "alt+pageup",
+        "command": "multiDiffEditor.goToPreviousChange",
+        "when": "inMultiDiffEditor"
+    },
+    {
+        "key": "alt+pagedown",
+        "command": "multiDiffEditor.goToNextChange",
+        "when": "inMultiDiffEditor"
+    },
+    // Matching bracket travel
+    {
+        "key": "ctrl+shift+\\",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    // ------------
+    // Sidebar
+    // ------------
+    // Show active file in explorer
+    {
+        "key": "shift+alt+e",
+        "command": "workbench.files.action.showActiveFileInExplorer",
+        "when": "editorTextFocus"
+    }
+]
