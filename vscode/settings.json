@@ -1,0 +1,88 @@
+{
+    // Telemetry
+    "telemetry.telemetryLevel": "off",
+
+    // Zen mode
+    "zenMode.fullScreen": false,
+    "zenMode.centerLayout": false,
+
+    // Editor
+    // Font
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    // View
+    "editor.wordWrap": "on",
+    "editor.rulers": [80, 120],
+    // Scrolling
+    "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    // Highlighting
+    "editor.renderLineHighlight": "gutter",
+    "editor.foldingHighlight": false,
+    "editor.occurrencesHighlight": "off",
+    // Copy and pasting
+    "editor.formatOnPaste": true,
+    "editor.copyWithSyntaxHighlighting": false,
+    // Cursor
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "on",
+    // Multiple references
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    // Suggestions
+    "editor.tabCompletion": "on",
+    "editor.snippetSuggestions": "bottom",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.suggestSelection": "first",
+    "editor.suggest.showWords": false,
+
+    // Workbench
+    // Theme
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#2A2D2E",
+        "editor.lineHighlightBorder": "#FF6188"
+    },
+    // Scrolling
+    "workbench.list.smoothScrolling": true,
+    "workbench.tree.enableStickyScroll": true,
+    // Preview
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    // Layout
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "top",
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.tabActionCloseVisibility": false,
+
+    // Explorer
+    "explorer.autoReveal": false,
+    "explorer.compactFolders": false,
+
+    // diffEditor
+    "diffEditor.renderSideBySide": false,
+
+    // Files
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+
+    // Terminal
+    "terminal.integrated.smoothScrolling": true,
+
+    // Window
+    "window.title": "",
+    "window.restoreWindows": "none",
+    "window.menuBarVisibility": "toggle",
+
+    // Breadcrumbs
+    "breadcrumbs.enabled": true
+}
