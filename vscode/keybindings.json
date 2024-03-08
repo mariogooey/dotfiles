@@ -1,0 +1,126 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+shift+\\",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "cursorWordPartLeft",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "alt+right",
+        "command": "cursorWordPartRight",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "shift+alt+left",
+        "command": "cursorWordPartLeftSelect",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "cursorWordPartRightSelect",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "alt+delete",
+        "command": "deleteWordPartRight",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "deleteWordPartLeft",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "cursorMove",
+        "when": "editorTextFocus",
+        "args": {
+            "to": "nextBlankLine",
+            "by": "wrappedLine"
+        }
+    },
+    {
+        "key": "ctrl+up",
+        "command": "cursorMove",
+        "when": "editorTextFocus",
+        "args": {
+            "to": "prevBlankLine",
+            "by": "wrappedLine"
+        }
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "cursorMove",
+        "when": "editorTextFocus",
+        "args": {
+            "to": "nextBlankLine",
+            "by": "wrappedLine",
+            "select": true
+        }
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "cursorMove",
+        "when": "editorTextFocus",
+        "args": {
+            "to": "prevBlankLine",
+            "by": "wrappedLine",
+            "select": true
+        }
+    },
+    {
+        "key": "shift+alt+e",
+        "command": "workbench.files.action.showActiveFileInExplorer",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+pageup",
+        "command": "workbench.action.editor.previousChange",
+        "when": "editorTextFocus && !textCompareEditorActive"
+    },
+    {
+        "key": "alt+pagedown",
+        "command": "workbench.action.editor.nextChange",
+        "when": "editorTextFocus && !textCompareEditorActive"
+    },
+    {
+        "key": "alt+pageup",
+        "command": "workbench.action.compareEditor.previousChange",
+        "when": "textCompareEditorVisible"
+    },
+    {
+        "key": "alt+pagedown",
+        "command": "workbench.action.compareEditor.nextChange",
+        "when": "textCompareEditorVisible"
+    },
+    {
+        "key": "alt+e alt+pagedown",
+        "command": "merge-conflict.next",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+e alt+pageup",
+        "command": "merge-conflict.previous",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+e 1",
+        "command": "merge-conflict.accept.current",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+e 2",
+        "command": "merge-conflict.accept.incoming",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+e 3",
+        "command": "merge-conflict.accept.both",
+        "when": "editorTextFocus"
+    }
+]
