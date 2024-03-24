@@ -82,6 +82,7 @@
     "window.title": "",
     "window.restoreWindows": "none",
     "window.menuBarVisibility": "toggle",
+    "window.commandCenter": false,
 
     // Breadcrumbs
     "breadcrumbs.enabled": true
