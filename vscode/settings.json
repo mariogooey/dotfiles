@@ -79,6 +79,8 @@
     // Terminal
     "terminal.integrated.smoothScrolling": true,
     "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorStyleInactive": "none",
 
     // Window
     "window.title": "",
