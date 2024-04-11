@@ -26,13 +26,18 @@
         "when": "textInputFocus && !accessibilityModeEnabled"
     },
     {
-	    "key": "alt+delete",
-	    "command": "deleteWordPartRight",
-	    "when": "textInputFocus && !accessibilityModeEnabled"
+        "key": "alt+backspace",
+        "command": "deleteWordPartLeft",
+        "when": "textInputFocus && !accessibilityModeEnabled"
     },
     {
-	    "key": "shift+alt+e",
-	    "command": "workbench.files.action.showActiveFileInExplorer"
+        "key": "alt+delete",
+        "command": "deleteWordPartRight",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "shift+alt+e",
+        "command": "workbench.files.action.showActiveFileInExplorer"
     },
     {
         "key": "ctrl+down",
