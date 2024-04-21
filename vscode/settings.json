@@ -13,7 +13,7 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     // View
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "off",
     "editor.rulers": [80, 120],
     // Scrolling
     "editor.smoothScrolling": true,
@@ -45,6 +45,7 @@
 
     // Workbench
     // Theme
+    "workbench.startupEditor": "none",
     "workbench.colorTheme": "Monokai Pro",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
@@ -62,7 +63,6 @@
     "workbench.activityBar.location": "top",
     "workbench.layoutControl.enabled": false,
     "workbench.editor.tabActionCloseVisibility": false,
-
     // Explorer
     "explorer.autoReveal": false,
     "explorer.compactFolders": false,
@@ -89,5 +89,5 @@
     "window.commandCenter": false,
 
     // Breadcrumbs
-    "breadcrumbs.enabled": true
+    "breadcrumbs.enabled": true,
 }
