@@ -48,6 +48,7 @@
     "workbench.startupEditor": "none",
     "workbench.colorTheme": "Monokai Pro",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons",
     "workbench.colorCustomizations": {
         "editor.lineHighlightBackground": "#2A2D2E",
         "editor.lineHighlightBorder": "#FF6188"

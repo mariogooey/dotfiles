@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Generated with terminal command:
+# code --list-extensions
+
 # Completely remove extensions
 # ---------------
 # For Windows
@@ -17,6 +20,7 @@ code --install-extension ms-vsliveshare.vsliveshare --force
 # Customisation
 code --install-extension monokai.theme-monokai-pro-vscode --force
 code --install-extension pkief.material-icon-theme --force
+code --install-extension pkief.material-product-icons --force
 
 # Remote
 code --install-extension ms-vscode-remote.remote-containers --force
