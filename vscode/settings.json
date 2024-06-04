@@ -24,9 +24,6 @@
     "editor.renderLineHighlight": "gutter",
     "editor.foldingHighlight": false,
     "editor.occurrencesHighlight": "off",
-    // Copy and pasting
-    "editor.formatOnPaste": true,
-    "editor.copyWithSyntaxHighlighting": false,
     // Cursor
     "editor.cursorBlinking": "solid",
     "editor.cursorSmoothCaretAnimation": "on",
@@ -91,4 +88,14 @@
 
     // Breadcrumbs
     "breadcrumbs.enabled": true,
+
+    // Python
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always"
+        },
+    },
+    "isort.args":["--profile", "black"],
 }
