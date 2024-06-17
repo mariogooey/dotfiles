@@ -45,6 +45,7 @@ code --install-extension twxs.cmake --force
 # Python
 code --install-extension ms-python.black-formatter --force
 code --install-extension ms-python.debugpy --force
+code --install-extension ms-python.flake8 --force
 code --install-extension ms-python.isort --force
 code --install-extension ms-python.mypy-type-checker --force
 code --install-extension ms-python.pylint --force
