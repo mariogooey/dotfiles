@@ -58,3 +58,6 @@ code --install-extension mshr-h.veriloghdl --force
 
 # MATLAB
 code --install-extension mathworks.language-matlab --force
+
+# Makefile
+code --install-extension ms-vscode.makefile-tools --force
