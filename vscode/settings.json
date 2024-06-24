@@ -64,6 +64,8 @@
     // Explorer
     "explorer.autoReveal": false,
     "explorer.compactFolders": false,
+    // Outline
+    "outline.collapseItems": "alwaysCollapse",
 
     // diffEditor
     "diffEditor.renderSideBySide": false,
