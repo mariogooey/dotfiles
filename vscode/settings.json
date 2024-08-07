@@ -73,6 +73,9 @@
     // diffEditor
     "diffEditor.renderSideBySide": false,
 
+    // Debug
+    "debug.showVariableTypes": true,
+
     // Files
     "files.eol": "\n",
     "files.insertFinalNewline": true,
