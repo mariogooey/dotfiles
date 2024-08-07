@@ -8,7 +8,7 @@
 
     // Editor
     // Font
-    "editor.fontSize": 14,
+    "editor.fontSize": 12,
     "editor.lineHeight": 2,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -67,6 +67,9 @@
     // Outline
     "outline.collapseItems": "alwaysCollapse",
 
+    // Source Control
+    "scm.showHistoryGraph": false,
+    
     // diffEditor
     "diffEditor.renderSideBySide": false,
 
