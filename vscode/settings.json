@@ -20,6 +20,8 @@
     "editor.stickyScroll.enabled": true,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.scrollbar.horizontalScrollbarSize": 0,
     // Highlighting
     "editor.renderLineHighlight": "gutter",
     "editor.foldingHighlight": false,
