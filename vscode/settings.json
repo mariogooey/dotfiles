@@ -49,8 +49,11 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "material-product-icons",
     "workbench.colorCustomizations": {
-        "editor.lineHighlightBackground": "#2A2D2E",
-        "editor.lineHighlightBorder": "#FF6188"
+        "editor.lineHighlightBackground": "#00000000",
+        "editor.lineHighlightBorder": "#ff6188b9",
+        "editorIndentGuide.background1": "#00000001",
+        "editorIndentGuide.activeBackground1": "#444444b9",
+        "editorRuler.foreground": "#444444b9"        
     },
     // Scrolling
     "workbench.list.smoothScrolling": true,
