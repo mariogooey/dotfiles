@@ -76,5 +76,25 @@
             "by": "wrappedLine",
             "select": true
         }
-    }
+    },
+    {
+        "key": "alt+pageup",
+        "command": "workbench.action.editor.previousChange",
+        "when": "editorTextFocus && !textCompareEditorActive"
+    },
+    {
+        "key": "alt+pagedown",
+        "command": "workbench.action.editor.nextChange",
+        "when": "editorTextFocus && !textCompareEditorActive"
+    },
+    {
+        "key": "alt+pageup",
+        "command": "workbench.action.compareEditor.previousChange",
+        "when": "textCompareEditorVisible"
+    },
+    {
+        "key": "alt+pagedown",
+        "command": "workbench.action.compareEditor.nextChange",
+        "when": "textCompareEditorVisible"
+    },
 ]
