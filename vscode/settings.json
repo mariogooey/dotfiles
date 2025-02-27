@@ -9,7 +9,7 @@
     // Editor
     // Font
     "editor.fontSize": 12,
-    "editor.lineHeight": 2,
+    "editor.lineHeight": 2.2,
     "editor.fontFamily": "Fira Code Retina",
     "editor.fontLigatures": true,
     // View
