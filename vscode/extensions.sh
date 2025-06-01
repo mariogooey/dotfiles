@@ -16,6 +16,7 @@
 # Productivity
 code --install-extension alefragnani.bookmarks --force
 code --install-extension ms-vsliveshare.vsliveshare --force
+code --install-extension ms-vscode.live-server --force
 
 # Customisation
 code --install-extension monokai.theme-monokai-pro-vscode --force
@@ -35,17 +36,15 @@ code --install-extension ms-vscode-remote.vscode-remote-extensionpack --force
 code --install-extension eamodio.gitlens --force
 code --install-extension mhutchie.git-graph --force
 
-# C
+# C/C++
 code --install-extension ms-vscode.cmake-tools --force
 code --install-extension ms-vscode.cpptools --force
 code --install-extension ms-vscode.cpptools-extension-pack --force
 code --install-extension ms-vscode.cpptools-themes --force
-code --install-extension twxs.cmake --force
 
 # Python
 code --install-extension ms-python.black-formatter --force
 code --install-extension ms-python.debugpy --force
-code --install-extension ms-python.flake8 --force
 code --install-extension ms-python.isort --force
 code --install-extension ms-python.mypy-type-checker --force
 code --install-extension ms-python.pylint --force
