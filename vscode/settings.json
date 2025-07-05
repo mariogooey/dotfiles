@@ -72,9 +72,6 @@
     // Outline
     "outline.collapseItems": "alwaysCollapse",
 
-    // Source Control
-    "scm.showHistoryGraph": false,
-
     // diffEditor
     "diffEditor.renderSideBySide": false,
     "diffEditor.ignoreTrimWhitespace": false,
