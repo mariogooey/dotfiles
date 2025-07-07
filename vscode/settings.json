@@ -72,6 +72,9 @@
     // Outline
     "outline.collapseItems": "alwaysCollapse",
 
+    // Source Control
+    "gitlens.plusFeatures.enabled": false,
+
     // diffEditor
     "diffEditor.renderSideBySide": false,
     "diffEditor.ignoreTrimWhitespace": false,
