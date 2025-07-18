@@ -89,8 +89,9 @@
     "files.trimTrailingWhitespace": true,
 
     // Terminal
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.lineHeight": 1.5,
     "terminal.integrated.smoothScrolling": true,
-    "terminal.integrated.lineHeight": 1.2,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorStyleInactive": "none",
 
