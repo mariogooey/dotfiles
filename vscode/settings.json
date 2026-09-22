@@ -50,7 +50,7 @@
     "workbench.productIconTheme": "material-product-icons",
     "workbench.colorCustomizations": {
         "editorIndentGuide.background1": "#00000001",
-        "editorIndentGuide.activeBackground1": "#444444b9",
+        "editorIndentGuide.activeBackground1": "##888888b9",
         "editorRuler.foreground": "#444444b9",
         "tree.indentGuidesStroke": "#888888b9",
         "tree.inactiveIndentGuidesStroke": "#00000001"
