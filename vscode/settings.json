@@ -54,6 +54,9 @@
         "editorRuler.foreground": "#444444b9",
         "tree.indentGuidesStroke": "#888888b9",
         "tree.inactiveIndentGuidesStroke": "#00000001"
+        "tab.activeBorder": "#ffff00b9",
+        "tab.unfocusedActiveBorder": "#00000001",
+        "tab.activeBackground": "#444444b9"
     },
     // Scrolling
     "workbench.list.smoothScrolling": true,
@@ -112,5 +115,8 @@
     "breadcrumbs.enabled": true,
 
     // Extensions
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+
+    // Experimental
+    "workbench.experimental.modernUI": false,
 }
